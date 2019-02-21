@@ -20,7 +20,7 @@
     NSLog(@"这是一个Git练习");
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    
+    btn.backgroundColor = UIColor.redColor;
     [self.view addSubview:btn];
     
 
