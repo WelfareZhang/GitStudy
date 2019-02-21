@@ -21,6 +21,8 @@
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     
+    [self.view addSubview:btn];
+    
 
 }
 
