@@ -22,9 +22,14 @@
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     btn.backgroundColor = UIColor.redColor;
     [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     
 
 }
 
+- (void)btnClick{
+    
+    
+}
 
 @end
