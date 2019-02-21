@@ -18,6 +18,10 @@
     [super viewDidLoad];
 
     NSLog(@"这是一个Git练习");
+    
+    UILabel *lbl = [UILabel new];
+    
+    
 
 }
 
