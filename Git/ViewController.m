@@ -21,6 +21,7 @@
     
     UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     btn.backgroundColor = UIColor.redColor;
+    NSLog(@"这是版本回退了");
     [self.view addSubview:btn];
     
 
