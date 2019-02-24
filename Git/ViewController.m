@@ -23,9 +23,14 @@
     btn.backgroundColor = UIColor.redColor;
     NSLog(@"这是版本回退了");
     [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     
 
 }
 
+- (void)btnClick{
+    
+    
+}
 
 @end
