@@ -20,6 +20,8 @@
     NSLog(@"这是一个Git练习");
     
     NSLog(@"master分支打0.6tag");
+    
+    NSLog(@"打0.8的分支");
     UILabel *lbl = [UILabel new];
     
     
