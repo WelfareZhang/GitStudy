@@ -23,6 +23,7 @@
     btn.backgroundColor = UIColor.redColor;
     NSLog(@"这是版本回退了");
     NSLog(@"dev分支打标签0.6");
+    NSLog(@"打0.0.7分支");
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
     
