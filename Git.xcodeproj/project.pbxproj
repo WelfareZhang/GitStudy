@@ -15,6 +15,7 @@
 		40A66690221E34A2005CCB60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A6668F221E34A2005CCB60 /* main.m */; };
 		40A6669A221E34A3005CCB60 /* GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A66699221E34A3005CCB60 /* GitTests.m */; };
 		40A666A5221E34A3005CCB60 /* GitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A666A4221E34A3005CCB60 /* GitUITests.m */; };
+		40D9F3F32339AA1C00C9E6AF /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D9F3F22339AA1C00C9E6AF /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		40A666A0221E34A3005CCB60 /* GitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A666A4221E34A3005CCB60 /* GitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUITests.m; sourceTree = "<group>"; };
 		40A666A6221E34A3005CCB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D9F3F12339AA1C00C9E6AF /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		40D9F3F22339AA1C00C9E6AF /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				40A66681221E34A1005CCB60 /* AppDelegate.m */,
 				40A66683221E34A1005CCB60 /* ViewController.h */,
 				40A66684221E34A1005CCB60 /* ViewController.m */,
+				40D9F3F12339AA1C00C9E6AF /* Model.h */,
+				40D9F3F22339AA1C00C9E6AF /* Model.m */,
 				40A66686221E34A1005CCB60 /* Main.storyboard */,
 				40A66689221E34A2005CCB60 /* Assets.xcassets */,
 				40A6668B221E34A2005CCB60 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				40A66685221E34A1005CCB60 /* ViewController.m in Sources */,
 				40A66690221E34A2005CCB60 /* main.m in Sources */,
 				40A66682221E34A1005CCB60 /* AppDelegate.m in Sources */,
+				40D9F3F32339AA1C00C9E6AF /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
